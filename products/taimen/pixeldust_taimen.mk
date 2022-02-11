@@ -45,12 +45,12 @@ export TARGET_DEVICE=taimen
 BOOTANIMATION := 1440
 
 # Google Apex
-WITH_GOOGLE_APEX := true
+#WITH_GOOGLE_APEX := true
 
 # Google Apps
 WITH_GMS := true
 DEVICE_REQUIRES_CARRIER_APPS := true
-REMOVE_GAPPS_PACKAGES += \
+#REMOVE_GAPPS_PACKAGES += \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
     Chrome \
@@ -92,6 +92,7 @@ PRODUCT_DEVICE := taimen
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2 XL
 PRODUCT_MANUFACTURER := Google
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.pixeldust.maintainer="Nitin1438" \
