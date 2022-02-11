@@ -32,7 +32,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.day_night_mode_enabled=true \
     setupwizard.feature.portal_notification=true \
     setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
-    setupwizard.feature.show_pixel_tos=true \
     setupwizard.feature.show_support_link_in_deferred_setup=false \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
     setupwizard.theme=glif_v3_light
@@ -96,5 +95,5 @@ $(call inherit-product, vendor/pixeldust/configs/version.mk)
 
 # Gapps
 ifeq ($(WITH_GMS),true)
-$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
 endif
