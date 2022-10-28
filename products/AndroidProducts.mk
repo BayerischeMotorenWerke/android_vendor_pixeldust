@@ -24,6 +24,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/taimen/pixeldust_taimen.mk \
     $(LOCAL_DIR)/tissot/pixeldust_tissot.mk \
     $(LOCAL_DIR)/surya/pixeldust_surya.mk \
+    $(LOCAL_DIR)/sweet/pixeldust_sweet.mk \
     $(LOCAL_DIR)/walleye/pixeldust_walleye.mk \
     $(LOCAL_DIR)/X01BD/pixeldust_X01BD.mk \
     $(LOCAL_DIR)/X00T/pixeldust_X00T.mk
@@ -52,6 +53,9 @@ COMMON_LUNCH_CHOICES += \
     pixeldust_redfin-userdebug \
     pixeldust_redfin-user \
     pixeldust_redfin-eng \
+    pixeldust_sweet-eng \
+    pixeldust_sweet-userdebug \
+    pixeldust_sweet-user \
     pixeldust_taimen-userdebug \
     pixeldust_taimen-user \
     pixeldust_tissot-userdebug \
